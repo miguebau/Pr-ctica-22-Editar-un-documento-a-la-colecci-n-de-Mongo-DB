@@ -1,0 +1,94 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(47, 82, 70);
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+table th,
+table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgb(73, 68, 68);
+  border-top: 1px solid rgb(97, 84, 84);
+  border-left: 1px solid rgb(124, 114, 114);
+  border-right: 1px solid rgb(143, 134, 134);
+}
+table th {
+    background-color: rgb(25, 171, 122);
+}
+table td {
+    background-color: rgb(120, 107, 193);
+}
+.agregar-btn {
+    background-color: rgb(53, 58, 53);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.agregar-btn:hover{
+    background-color: #45a049;
+}
+.editar-btn:hover{
+    background-color: rgb(48, 151, 225)
+}
+.eliminar-btn:hover{
+    background-color: rgb(215, 79, 79);
+}
+.editar-btn {
+    background-color: rgb(25, 124, 195);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.eliminar-btn {
+    background-color: rgb(46, 56, 200);
+    color: rgb(112, 55, 55);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    background-color: rgb(5, 138, 93);
+    box-shadow: 0 4px 8px 0 rgba(124, 19, 19, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+ 
+.card-header {
+    background-color: rgb(62, 121, 101);
+    color: rgb(128, 99, 99);
+    padding: 2px;
+}
+.card-body {
+
+    padding: 10px;
+}
+input[type="text"]{
+    background-color: rgb(167, 182, 177);
+    text-align: center;
+    border-color: rgb(11, 104, 73);
+    border-radius: 10px;
+}
+.readonly {
+    color: #800e0e;
+}
